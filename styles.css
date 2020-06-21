@@ -1,0 +1,21 @@
+
+#radiusBtn {
+  background-color: hsl(122, 93%, 71%);
+  padding: 12px 28px;
+  border-radius: 8px;
+
+}
+
+#colorFruitBtn {
+  background-color: hsl(122, 93%, 71%);
+  padding: 14px 40px;
+  border-radius: 8px;
+}
+
+
+.radiusArrayBtn {
+  background-color: hsl(122, 93%, 71%);
+  padding: 50px 50px;
+  border-radius: 8px;
+
+}
