@@ -109,7 +109,7 @@ header a:hover{
 /* Newsletter */
 #newsletter{
   padding:0px;
-  margin-top: 20px;
+  margin-top: 500px;
   color:#ffffff;
   background:lightslategray;
   opacity: .7;
@@ -136,7 +136,7 @@ header a:hover{
 
 /* Boxes */
 #boxes{
-  margin-top: 10px;
+  margin-top: 50px;
   color:#ffffff;
   background:lightslategray;
   opacity: .7;
@@ -151,10 +151,6 @@ header a:hover{
 
 #boxes .box img{
   width:90px;
-}
-
-h4 span {
-  display: block;
 }
 
 /* Sidebar */
