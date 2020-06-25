@@ -13,3 +13,11 @@ function randomColor(colors , fruits) {
   document.getElementById("colorFruitBtn").append("The " + randomColor + " " + randomFruit + ". ");
 
   }
+
+  document.getElementByTagName('input')[1].value = "Input Value";
+
+  function trialrun()
+  {
+    var text1 = document.getElementById('text1').value;
+    document.getElementById('text2')
+  }
