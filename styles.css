@@ -101,7 +101,7 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background-position: center;
+  background:url('../img/showcase.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
 }
@@ -136,8 +136,10 @@ header a:hover{
 
 /* Boxes */
 #boxes{
-  margin-top:10px;
-  background-color: lightgray;
+  margin-top: 10px;
+  color:#ffffff;
+  background:lightslategray;
+  opacity: .7;
 }
 
 #boxes .box{
@@ -149,6 +151,10 @@ header a:hover{
 
 #boxes .box img{
   width:90px;
+}
+
+h4 span {
+  display: block;
 }
 
 /* Sidebar */
