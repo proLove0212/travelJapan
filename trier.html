@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- <iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+allowfullscreen>
+</iframe> -->
+<div id="map"></div>
+
+<style>
+  /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 80%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+</style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script
+async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQgF0U4thnAFyIGXpznJ8w5Cov_aQ5cXs&callback=initMap&libraries=&v=weekly"
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="trier.js"></script>
+</body>
+</html>
