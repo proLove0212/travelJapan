@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Affordable and professional web design">
-	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Brad Traversy">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
     <title>Travel Japan</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -16,66 +18,92 @@
         <div id="branding">
           <h1><img src="kanji-wa.png" style="width:40px;height:40px;"><span class="highlight"><i>Travel Japan</i></span></h1>
         </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="locations.html">Locations</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
+        <i class="material-icons">airplanemode_active</i>
 
-          </ul>
+        <nav>
+          <div class="nav-wrapper">
+          <div class= "col s12">
+            <ul>
+         <li class="current"><a href="index.html">Home</a></li> 
+         <li><a href="locations.html">location</a></li>
+         <li><a href="about.html">About Us</a></li>
+         <li><a href="contact.html">Contact</a></li>
+        </ul>  
+        </div>
         </nav>
       </div>
     </header>
-
-    <section id="showcase">
-      <div class="container">
-        <!--<img src="./img/todaiji.png" style="width:500;height:500;">-->
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"><img src="./img/chusonji.png"></a>
+      <a class="carousel-item" href="#two!"><img src="./img/NaraAttraction.webp"></a>
+      <a class="carousel-item" href="#three!"><img src="./img/KumamotoCity.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="./img/Fukusenji Temple.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="./img/CoolRedTemple.jpg"></a>
+    </div>
+        <!--   Icon Section   -->
+        <div class="row " style="margin-top: 25%">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">Covid-19 Status?</h5>
+              <p class="light">Small Businessses Battle Coronavirus and Time in Struggle to Survive. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non consequuntur fuga, facilis iste dolor provident veritatis dicta tenetur, esse nihil reprehenderit earum quas aliquid corporis, commodi corrupti nemo quod numquam.</p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+              <h5 class="center"> List of Tourist destination?</h5>
+              <p class="light">Information related to website. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta minima possimus ad, accusamus rerum, sapiente dicta necessitatibus culpa modi itaque, blanditiis magni quod laborum tenetur incidunt fugit dolore consequuntur velit!</p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+              <h5 class="center">Flights  or weather Maybe?</h5>
+              <p class="light"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae rem, aliquid libero, dignissimos porro quod autem voluptatibus reiciendis cum ex obcaecati beatae deleniti inventore? Expedita cumque molestiae molestias maiores sunt!.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <section id="newsletter">
-      <div class="container">
-        <h1><i>Search by location, event type</i></h1>
-        <form>
-          <input type="email" placeholder="spas in Kyoto...">
-          <button type="submit" class="button_1">Search</button>
-        </form>
+    </div>
+    <div class="parallax-container valign-wrapper">
+      <div class="parallax"><img src="./img/tourist.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Contact Us</h4>
+            <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+    <div class="parallax-container valign-wrapper">
+      <div class="parallax"><img src="./img/women-in-japan.jpg" alt="Unsplashed background img 3"></div>
+    </div>      
+    <div style="text-align:center; position: relative; top:5%" class="responsive-video" controls="">
+      <iframe width="700" height="500" src="https://www.youtube.com/embed/00ZXaXIABMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-    <section id="newsletter">
-      <div class="container">
-        <h1><i>Places to eat</i></h1>
-        <form>
-          <input type="email" placeholder="places to eat in Sendai...">
-          <button type="submit" class="button_1">Search</button>
-        </form>
-      </div>
-    </section>
-
-    <section id="newsletter">
-      <div class="container">
-        <h1><i>Variable Test</i></h1>
-        <form>
-
-          <i><p id="colorFruitBtn">
-
-          </p></i>
-
-        </form>
-      </div>
-      <button class="button_1" onclick=randomColor()>Create sentence fragment with one fruit and one color</button>
-    </section>
-
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script> 
+      document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems,{});
+  });
+  (function($){
+  $(function(){
+    $('.sidenav').sidenav();
+    $('.parallax').parallax();
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
+    </script>
+    <script src="myscripts.js"></script>
   </body>
 </html>
 
 
 
-
-
-
-<input type="text" id="text1" name="text1" onclick="this.value='' "//>
-<button onclick="tiralrun();">trialrun</button>
-<input type="text" id="text2" name="text2" onclick="this.value='' ">
