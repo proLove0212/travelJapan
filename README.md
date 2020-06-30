@@ -10,3 +10,5 @@ This project utilized:
 - Weather API: the current weather for each city
 ​
 * Important note: the user will need to have the Google Chrome CORS extension in order to fully utilize this website
+
+* The address/telephone number was originally taken from a website that claims to create randomized fake addresses/telephone numbers for different countries. Arron mentioned that there are potential legal issues with such websites that claim to create "random, unused data" such as that. So the address/telephone number were altered to be genuine dummy data. The text in Japanese says, "This is an example sentence. This is example text."
